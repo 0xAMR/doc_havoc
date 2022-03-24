@@ -1,11 +1,10 @@
-import React from 'react';
+// Components
+import Navbar from './components/Navbar';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <h1>DocFree</h1>
+      <Navbar />
     </div>
   );
 }
-
-export default App;
