@@ -1,0 +1,36 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--light-gray);
+  height: 75px;
+  padding: 0.5rem 2rem;
+
+  & .nav__logo {
+    display: flex;
+    align-items: center;
+
+    & svg {
+      height: 2rem;
+      width: 2em;
+      margin: 0 0.5rem 0 0;
+    }
+
+    & span {
+      font-weight: 600;
+      font-size: 1.5rem;
+    }
+  }
+
+  & .nav__links {
+    list-style: none;
+    display: flex;
+
+    & .nav__item {
+      margin: 0 0 0 1.5rem;
+      font-size: 1.1rem;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+}
