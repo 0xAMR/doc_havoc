@@ -1,4 +1,4 @@
-import './navbar.mod.scss';
+import './navbar.scss';
 import Icon from './navbar.icons';
 
 export default function Navbar() {
