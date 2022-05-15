@@ -1,6 +1,6 @@
 # DocHavoc
 
-A no-frills, free and open source software documentation tool based on JSON & markdown and built with React & TypeScript.
+A no-frills, free and open source software documentation tool based on JSON and Markdown. Built with React and TypeScript.
 
 ## Getting Started with Create React App
 
