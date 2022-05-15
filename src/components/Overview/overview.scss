@@ -1,0 +1,29 @@
+.overview {
+  width: 100%;
+  background-color: var(--dark);
+
+  .overview__container {
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+
+    & .overview__card {
+      color: var(--white);
+      flex: 1;
+      padding: 2.5rem;
+
+      & h3 {
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-bottom: 0.75rem;
+      }
+
+      & p {
+        font-size: 1.1rem;
+        line-height: 1.5;
+      }
+    }
+  }
+}
