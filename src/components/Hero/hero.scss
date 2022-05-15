@@ -1,9 +1,9 @@
 .hero {
   display: flex;
   align-items: center;
-  justify-content: center;  
+  justify-content: center;
   text-align: center;
-  background-color: #ccc;
+  background-color: var(--dark-acc);
   height: 500px;
   width: 100%;
   color: #333;
@@ -11,14 +11,18 @@
   & .hero__title {
     font-size: 3rem;
     margin: 0 0 1rem 0;
-  }  
+    color: var(--accent);
+  }
 
   & .hero__subtitle {
     font-size: 1.5rem;
     margin: 0 0 1.5rem 0;
+    color: var(--white);
   }
 
   & .hero__cta {
+    background-color: var(--accent);
+    color: var(--dark);
     font-size: 1.1rem;
     padding: 0.5rem 1rem;
     border-radius: 0.25rem;

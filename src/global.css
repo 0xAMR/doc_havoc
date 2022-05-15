@@ -10,10 +10,13 @@
 html,
 body,
 #root,
-.App {
+.app {
   height: 100%;
 }
 
 :root {
-  --light-gray: #eee;
+  --accent: #00ddff;
+  --white: #ffffff;
+  --dark: #111;
+  --dark-acc: #333;
 }
