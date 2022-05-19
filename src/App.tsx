@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Overview from './components/Overview';
 import Section from './components/Section';
+import Footer from './components/Footer';
 
 export default function App() {
   return (
@@ -34,6 +35,7 @@ export default function App() {
         darker
         reverse
       />
+      <Footer />
     </div>
   );
 }
